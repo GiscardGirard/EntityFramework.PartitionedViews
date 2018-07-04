@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("EntityFramework.PartitionedViews")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("PartitionedViews.EntityFramework")]
+[assembly: AssemblyDescription("Entity Framework Code First SQL Server Partitioned View Adapter. Generate Partitioned Views using Entity Framework Code First.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Microsoft")]
-[assembly: AssemblyProduct("EntityFramework.PartitionedViews")]
-[assembly: AssemblyCopyright("Copyright © Microsoft 2016")]
+[assembly: AssemblyCompany("Giscard Girard")]
+[assembly: AssemblyProduct("PartitionedViews.EntityFramework")]
+[assembly: AssemblyCopyright("Copyright © Giscard Girard 2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

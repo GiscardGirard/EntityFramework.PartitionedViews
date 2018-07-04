@@ -28,7 +28,7 @@ namespace EntityFramework.PartitionedViews
         {            
             var contextType = typeof(MemberTableDbContext<>).MakeGenericType(type);
             var context = (DbContext)Activator.CreateInstance(contextType, Config.PrimaryKeyPropertyNames, Config.ConnectionName, dataRangeKey);
-            return (DbContext)context;
+            return context;
         }
         private Type CreatePartitionTableType(Type partitionedViewType, string suffix)
         {

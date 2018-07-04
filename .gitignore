@@ -187,3 +187,8 @@ FakesAssemblies/
 GeneratedArtifacts/
 _Pvt_Extensions/
 ModelManifest.xml
+/.vs/EntityFramework.PartitionedViews/v15/Server/sqlite3
+/EntityFramework.PartitionedViews.1.0.0.nupkg
+/EntityFramework.PartitionedViews.1.0.0 - Copy2.zip
+/EntityFramework.PartitionedViews.1.0.0 - Copy.zip
+/NuGet.exe

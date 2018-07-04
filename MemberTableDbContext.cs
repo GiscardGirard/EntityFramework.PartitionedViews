@@ -17,7 +17,9 @@ namespace EntityFramework.PartitionedViews
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.RegisterEntityType(DataType);
-            modelBuilder.Types().Configure(c => c.HasKey(PrimaryKeyPropertyNames));
+            modelBuilder.Types()
+                .Where(t=>t == DataType)
+                .Configure(c => c.HasKey(PrimaryKeyPropertyNames));
             base.OnModelCreating(modelBuilder);
         }
         public Type DataType

@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFramework.PartitionedViews", "EntityFramework.PartitionedViews.csproj", "{9985A14E-98ED-44EA-85AC-3E1548637ED6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFramework.PartitionedViews.Tests", "..\EntityFramework.PartitionedViews.Tests\EntityFramework.PartitionedViews.Tests.csproj", "{24928401-4A4F-4536-BA3A-D67B8C866451}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{9985A14E-98ED-44EA-85AC-3E1548637ED6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9985A14E-98ED-44EA-85AC-3E1548637ED6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9985A14E-98ED-44EA-85AC-3E1548637ED6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24928401-4A4F-4536-BA3A-D67B8C866451}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24928401-4A4F-4536-BA3A-D67B8C866451}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24928401-4A4F-4536-BA3A-D67B8C866451}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24928401-4A4F-4536-BA3A-D67B8C866451}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {21308F4A-81DA-4AD6-96DB-9507D6C022F2}
 	EndGlobalSection
 EndGlobal

@@ -14,7 +14,7 @@ namespace EntityFramework.PartitionedViews
         {
             SetSqlGenerator("System.Data.SqlClient", new SqlServerMigrationSqlGenerator());
             AutomaticMigrationsEnabled = true;
-            AutomaticMigrationDataLossAllowed = true;            
+            AutomaticMigrationDataLossAllowed = true;
         }
     }
 }
